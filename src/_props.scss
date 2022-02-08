@@ -1,0 +1,56 @@
+
+$blue: #2126a3 ;
+$black: #1a1b1e ;
+$white: #f9f6f6 ;
+
+@media (max-width: 992px)
+{
+	.header .header-content .container .header-navbar .right-side
+	{
+		display: none ;
+	}
+	.hero .container .hero-content .content
+	{
+		font-size: 2rem;
+	}
+	.about .about-content .container .row .c .right-side .about-desc
+	{
+		font-size: .9rem;
+		line-height: 1.5rem;
+	}
+	.about .about-content .container .row .c .right-side .about-title
+	{
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.hero .container .hero-content .content
+	{
+		font-size: 1.5rem;
+	}
+	.about .about-content .container .row .c .right-side .about-desc
+	{
+		font-size: 1rem;
+	}
+	.righted-header
+	{
+		width: 50% ;
+	}
+}
+
+@keyframes animation-down
+{
+	0%
+	{
+		opacity: 1 ;
+		transform: scale(1.0);
+	}
+	100%
+	{
+		opacity: .1;
+		transform: scale(.5);
+		transform: translateY(10px);
+	}
+}

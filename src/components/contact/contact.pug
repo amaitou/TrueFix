@@ -1,0 +1,23 @@
+
+div(class = 'section-contact py-5 mb-5', id = 'contact')
+	div(class = 'contact-content')
+		div(class = 'container py-5')
+			h3(class = 'section-title mb-5 text-center') contact us
+			div(class = 'row align-items-center justify-content-center')
+				div(class = 'c col-md-6 col-10 mb-md-0 mb-5', data-aos='fade-up', data-aos-delay='200')
+					div(class = 'firstname mb-2')
+						label(class = 'mb-2') first name
+						input(class = 'w-100 py-2 px-3 rounded' name = 'first name', placeholder = 'first name', type = 'text')
+					div(class = 'lastname mb-2')
+						label(class = 'mb-2') last name
+						input(class = 'w-100 py-2 px-3 rounded' name = 'last name', placeholder = 'last name', type = 'text')
+					div(class = 'email mb-2')
+						label(class = 'mb-2') email
+						input(class = 'w-100 py-2 px-3 rounded' name = 'email', placeholder = 'email', type = 'email')
+					div(class = 'email mb-3')
+						label(class = 'mb-2') write your message down here
+						textarea(class = "form-control py-2 px-3" id = "textarea" rows = '2')
+					button(class  = 'btn btn-outline-primary') submit
+
+				div(class = 'c col-md-6 col-10 text-center text-md-end' data-aos='fade-down', data-aos-delay='300')
+					img(class = 'w-75', src = '../../images/contact.svg')

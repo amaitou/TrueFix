@@ -1,0 +1,29 @@
+
+.section-gallery
+{
+	.gallery-content
+	{
+		.container
+		{
+			.row
+			{
+				.c
+				{
+					overflow: hidden;
+					cursor: pointer;
+					img
+					{
+						width: 100% ;
+					}
+					&:hover
+					{
+						img
+						{
+							transform: scale(1.5);
+						}
+					}
+				}
+			}
+		}
+	}
+}

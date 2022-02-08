@@ -1,0 +1,34 @@
+
+footer(class = 'footer py-5 mt-5')
+	div(class = 'footer-content')
+		div(class = 'container')
+			div(class = 'row')
+				div(class = 'c col-lg-4 col-md-6 col-10 mb-lg-0 mb-5', data-aos='fade-up', data-aos-delay='100')
+					h6(class = 'footer-title mb-3') contact
+					div(class = 'contact-info')
+						p
+						.
+							street: 2017 harron drive <br />
+							city: baltmone <br />
+							zip code: 21201 <br />
+							phone number: 443-567-8124 <br />
+							mobile number: 443-915-76134
+				div(class = 'c col-lg-2 col-md-6 col-10 mb-lg-0 mb-5', data-aos='fade-up', data-aos-delay='200')
+					h6(class = 'footer-title mb-3') quick links
+					div(class = 'links quick-links')
+						- let footer_items = ['home', 'about', 'services', 'gallery', 'reviews', 'contact']
+						each val in footer_items
+							a(class = 'd-block mb-2 footer-link text-muted', href = '#' + val)  #{val}
+				div(class = 'c col-lg-2 col-md-6 col-10 mb-lg-0 mb-5', data-aos='fade-up', data-aos-delay='300')
+					h6(class = 'footer-title mb-3') follow us
+					div(class = 'links follows')
+						- let follows = [{url:'https://www.facebook.com/', name: 'facebook'}, {url: 'https://www.instagram.com/', name: 'instagram'}, {url: 'https://twitter.com/', name: 'twitter'}, {url: 'https://www.pinterest.com/', name: 'pinterest'}, {url: 'https://www.youtube.com/', name: 'youtube'}]
+						each val in follows
+							a(class = 'follows-link d-block mb-2 text-muted', href = val.url, target = '_blank')  #{val.name}
+				div(class = 'c col-lg-4 col-md-6 col-10', data-aos='fade-up', data-aos-delay='400')
+					div(class = 'subscription')
+						p(class = 'subscription-title mb-3') subscribe via your e-mail to get weekly articles about our work
+						div
+							input(class = 'w-100 d-block mb-3 py-2 px-3 rounded', name = 'subscribe', placeholder = 'subscribe', type = 'text')
+							btn(class = 'w-100 btn btn-primary px-3 py-2') subscribe
+						

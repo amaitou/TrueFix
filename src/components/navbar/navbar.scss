@@ -1,0 +1,130 @@
+
+@import '../../props' ;
+
+.righted-header
+{
+	border-radius: 10px;
+	background-color: $white;
+	position: fixed ;
+	top: 25% ;
+	left: -100% ;
+	min-height: 50vh;
+	width: 25% ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10031 ;
+	box-shadow: 80px 1px 200px grey;
+	&.righted
+	{
+		left: 0 ;
+	}
+	.righted-navbar
+	{
+		.item
+		{
+			font-size: 1.1rem ;
+		}
+	}
+}
+
+.header
+{
+	&.nav-bar-scroll
+	{
+		background-color: $white;
+		a
+		{
+			color: $black ;
+			&:hover
+			{
+				color: grey ;
+			}
+		}
+	}
+	.header-content
+	{
+		.container
+		{
+			.header-navbar
+			{
+				font-size: 1.05rem;
+				.left-side
+				{
+					&:hover
+					{
+						.navbar-brand-icon
+						{
+							transform: rotate(360deg);
+						}
+						.navbar-brand-name
+						{
+							padding-left: 5px ;
+						}
+					}
+					cursor: pointer;
+					.navbar-brand-name
+					{
+						font-weight: bolder;
+					}
+				}
+				.menu-bar
+				{
+					cursor: pointer;
+					position: relative ;
+					.bar
+					{
+						transition: .5s ;
+						&.navbar-color
+						{
+							background-color: $black ;
+							&:after, &:before
+							{
+								transition: .5s ;
+								background-color: $black ;
+							}
+						}
+						cursor: pointer;
+						width: 2rem ;
+						height: 4px;
+						background-color: $white ;
+						&:before, &:after
+						{
+							width: 100% ;
+							position: absolute;
+							height: 4px ;
+							content: '' ;
+							background-color: $white;
+						}
+						&:before
+						{
+							transition: .5s ;
+							transform: translateY(-9px);
+						}
+						&:after
+						{
+							transition: .5s ;
+							transform: translateY(9px);
+						}
+						&.open
+						{
+							transition: .5s ;
+							transform: translateX(50px);
+							background: transparent;
+							&:before
+							{
+								transition: .5s ;
+								transform: rotate(45deg) translate(-30px, 30px) ;
+							}
+							&:after
+							{
+								transition: .5s ;
+								transform: rotate(-45deg) translate(-30px, -30px) ;	
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+
+@import '../../props' ;
+
+.section-services
+{
+	.services-content
+	{
+		.container
+		{
+			.row
+			{
+				.c
+				{
+					.card
+					{
+						border-bottom: 4px solid $blue ;
+						transition: .5s ;
+						.service-logo
+						{
+							width: 7rem ;
+							height: 7rem ;
+						}
+						.service-title
+						{
+							font-weight: bolder;
+							font-size: 1.2rem;
+							color: grey ;
+						}
+						&:hover
+						{
+							background-color: $blue ;
+							color: $white ;
+							.service-title
+							{
+								color: $white ;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

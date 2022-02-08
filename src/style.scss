@@ -1,0 +1,40 @@
+
+@import './props' ;
+
+*
+{
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+	transition: 0.3s;
+	text-transform: capitalize ;
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: black ;
+	font-weight: bolder ;
+}
+
+body
+{
+	background-color: $white ;
+	position: relative;
+}
+
+.header-anchor
+{
+	color: $white ;
+	&:hover
+	{
+		color: $blue ;
+	}
+}
+
+.section-title
+{
+	font-weight: 900;
+	color: $black ;
+}

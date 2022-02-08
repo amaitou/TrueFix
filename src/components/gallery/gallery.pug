@@ -1,0 +1,9 @@
+
+section(class = 'section-gallery py-5 my-5', id = 'gallery')
+	div(class = 'gallery-content')
+		div(class = 'container py-5')
+			h3(class = 'section-title mb-5 text-center') gallery
+			div(class = 'row justify-content-center', id = 'gallery')
+				each val,index in ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg"]
+					div(class = 'c col-lg-4 col-md-6 col-10 mb-4 rounded', data-aos='fade-up', data-aos-delay='200')
+						img(class = 'rounded item item-' + index, src = '../../images/' + val, alt = 'picture ' + (index + 1))

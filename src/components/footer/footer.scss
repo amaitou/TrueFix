@@ -1,0 +1,46 @@
+
+@import '../../props' ;
+
+.footer
+{
+	background-color: white ;
+	.footer-content
+	{
+		.container
+		{
+			.row
+			{
+				.c
+				{
+					.footer-title
+					{
+						font-weight: 900;
+						font-size: 1.2rem;
+					}
+					.links
+					{
+						a
+						{
+							font-weight: bold;
+						}
+					}
+					.subscription
+					{
+						.subscription-title
+						{
+							font-weight: 900;
+							font-size: 1.2rem;
+						}
+						div
+						{
+							input
+							{
+								border: 1px solid $blue ;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+@import '../../props' ;
+
+.section-about
+{
+	.about-content
+	{
+		.container
+		{
+			.row
+			{
+				.c
+				{
+					.right-side
+					{
+						.about-title
+						{
+							font-size: 2rem;
+							font-weight: bolder;
+							color: grey ;
+							padding-top: 10px ;
+						}
+						.about-desc
+						{
+							line-height: 1.8rem;
+							font-weight: bold;
+							background-color: $blue;
+							font-size: 1.05rem;
+							color: white ;
+						}
+					}
+				}
+			}
+		}
+	}
+}

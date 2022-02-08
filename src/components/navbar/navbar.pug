@@ -1,0 +1,22 @@
+- let menu_items = ['home', 'about', 'services', 'gallery', 'reviews', 'contact']
+mixin list(cls = '')
+		each val in menu_items
+			a(class = cls, href = '#' + val)  #{val}
+
+header(class = 'righted-header')
+	nav(class = 'righted-navbar')
+		+list('nav-item d-block my-4')
+
+header(class = 'header fixed-top')
+	div(class = 'header-content')
+		div(class='container py-3')
+			nav(class = 'header-navbar d-flex justify-content-between align-items-center')
+				div(class = 'left-side')
+					div(class = 'navbar-brand-info')
+						a(href = '/' class = 'header-anchor')
+							i(class = 'navbar-brand-icon fas fa-tools me-2')
+							span(class = 'navbar-brand-name') TrueFix
+				div(class = 'right-side')
+					+list('item header-anchor mx-2')
+				div(class = 'menu-bar d-lg-none d-block me-2')
+					div(class = 'bar')

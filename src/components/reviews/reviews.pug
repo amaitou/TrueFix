@@ -1,0 +1,26 @@
+
+section(class = 'section-reviews py-5 mb-5', id = 'reviews')
+	div(class = 'reviews-content')
+		div(class = 'container py-5')
+			h3(class = 'section-title mb-5 text-center') reviews
+			div(class = 'reviews swiper')
+				div(class = 'wrapper swiper-wrapper')
+					- let profiles = [{name: 'pablo fiera', img: '../../images/1.jpg', alt : '1 picture'},{name: 'santa emiliano', img: '../../images/2.jpg', alt : '2 picture'}, {name: 'jackson fernando', img: '../../images/3.jpg', alt : '3 picture'}, {name: 'benjamin cark', img: '../../images/4.jpg', alt : '4 picture'}, {name: 'lionel payero', img: '../../images/5.jpg', alt : '5 picture'}, {name: 'larson spinky', img: '../../images/6.jpg', alt : '6 picture'}]
+					each val, index in profiles
+						div(class = 'card-profile px-3 py-4 swiper-slide bg-white rounded shadow mb-5', data-aos='fade-down', data-aos-delay='200')
+							div(class = 'card-top d-flex align-items-center mb-4')
+								img(class = 'img-thumbnail rounded-circle me-3', src = val.img, alt = val.alt)
+								div(class = 'card-top-name mb-3')
+									h5(class = 'username')  #{val.name}
+									div(class = 'stars')
+										i(class = 'fas fa-star mx-1')
+										i(class = 'fas fa-star mx-1')
+										i(class = 'fas fa-star mx-1')
+										i(class = 'fas fa-star mx-1')
+										i(class = 'fas fa-star mx-1')
+							p(class = 'card-desc text-center')
+								i(class = 'fas fa-quote-left me-3')
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+								i(class = 'fas fa-quote-right ms-3')
+					
+										

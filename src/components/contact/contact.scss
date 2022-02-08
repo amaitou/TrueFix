@@ -1,0 +1,30 @@
+
+@import '../../props' ;
+
+.section-contact
+{
+	.contact-content
+	{
+		.container
+		{
+			.row
+			{
+				.c
+				{
+					div
+					{
+						label
+						{
+							font-weight: bolder;
+						}
+						input, textarea
+						{
+							outline: none ;
+							border: 1px solid $blue ;
+						}
+					}
+				}
+			}
+		}
+	}
+}

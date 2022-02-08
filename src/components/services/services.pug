@@ -1,0 +1,13 @@
+
+section(class = 'section-services py-5 my-5', id = 'services')
+	div(class = 'services-content')
+		div(class = 'container py-5')
+			h3(class = 'section-title mb-5 text-center') Services
+			div(class = 'row justify-content-center')
+				- let services_menu = [{service: 'cleaning up', alt: 'cleaning up picture', img: '../../images/clean-up.svg'}, {service: 'bugs fixing', alt: 'bugs fixing picture', img: '../../images/bug-fixing.svg'}, {service: 'maintenance', alt: 'maintenance picture', img: '../../images/maintenance.svg'}, {service: 'security', alt: 'security picture', img: '../../images/security.svg'}]
+				each val in services_menu
+					div(class = 'c col-lg-3 col-md-6 col-10 rounded', data-aos='fade-down', data-aos-delay='200')
+						div(class = 'card p-3 mb-lg-0 mb-5 shadow')
+							img(class = 'service-logo mb-3', src = val.img, alt = val.alt)
+							h6(class = 'service-title mb-3')   #{val.service}
+							p(class = 'service-desc')  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua

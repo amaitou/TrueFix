@@ -1,0 +1,50 @@
+
+
+@import '../../props' ;
+
+.section-reviews
+{
+	.reviews-content
+	{
+		.container
+		{
+			.reviews
+			{
+				.wrapper
+				{
+					.card-profile
+					{
+						.card-top
+						{
+							img
+							{
+								width: 5rem ;
+								height: 5rem ;
+							}
+							.card-top-name
+							{
+								.username
+								{
+									font-weight: bolder;
+									font-size: 1rem;
+								}
+								.stars
+								{
+									font-size: .6rem ;
+									color: $blue ;
+								}
+							}
+						}
+						.card-desc
+						{
+							.fas
+							{
+								color: $blue ;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

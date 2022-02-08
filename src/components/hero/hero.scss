@@ -1,0 +1,46 @@
+
+@import '../../props' ;
+
+.hero
+{
+	background-image: url('../../images/hero.jpg');
+	background-size: cover ;
+	background-position: center;
+	&:before
+	{
+		position: absolute ;
+		content: '' ;
+		left: 0 ;
+		top: 0 ;
+		right: 0 ;
+		bottom: 0 ;
+		background-color: rgba(0, 0, 0, .8);
+	}
+	.container
+	{
+		.hero-content
+		{
+			top: 55% ;
+			left: 50% ;
+			.content
+			{
+				font-size: 3rem;
+				.hero-title
+				{
+					background: -webkit-linear-gradient($blue, $white);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					font-weight: bolder;
+				}
+				.btn-down
+				{
+					color: $white ;
+					i
+					{
+						animation: animation-down 2s linear infinite;
+					}
+				}
+			}
+		}
+	}
+}
