@@ -36,7 +36,5 @@ you can learn more about ```gulp``` frome [here]('https://gulpjs.com/')
 
 ## Contct me
 
-* Facebook : https://www.facebook.com/Lelouche0x1
-* Instagram : https://www.instagram.com/lelouche0x1
-* Twitter : https://twitter.com/Lelouche01
-* Github : https://github.com/Lelouche01
+* Twitter  : https://twitter.com/amait0u
+* Instagram : https://www.instagram.com/amait0u
