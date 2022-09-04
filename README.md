@@ -34,7 +34,10 @@ after you have these dependencies installed properly, then create a folder with 
 then start having fun with this website
 you can learn more about ```gulp``` frome [here]('https://gulpjs.com/')
 
-## Contct me
+## Contact Me
 
-* Twitter  : https://twitter.com/amait0u
-* Instagram : https://www.instagram.com/amait0u
+* [Twitter][_1]
+* [Instagram][_2]
+
+[_1]: https://twitter.com/amait0u
+[_2]: https://www.instagram.com/amait0u
