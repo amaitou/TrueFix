@@ -1,3 +1,7 @@
+------------------
+![Screenshot from 2022-09-06 04-54-48](https://user-images.githubusercontent.com/49293816/188544518-8aa0eef7-8661-4957-83e8-a9e6e9959f9c.png)
+
+------------------
 ## About
 
 This is a landing page for computers repair services website
