@@ -5,7 +5,7 @@
 ## About
 
 This is a landing page for computers repair services website.
-* Visit the landing page via [TrueFix](https://amaitou.github.io/TrueFix/)
+* Visit the landing page via **[TrueFix](https://amaitou.github.io/TrueFix/)**
 
 ## Usage
 
