@@ -37,7 +37,7 @@ after you have these dependencies installed properly, then create a folder with 
 * ```gulp```
 
 then start having fun with this website
-you can learn more about ```gulp``` frome [here]('https://gulpjs.com/')
+you can learn more about ```gulp``` frome **[here]('https://gulpjs.com/')**
 
 ## Contact Me
 
