@@ -10,7 +10,7 @@ This is a landing page for computers repair services website
 
 If you know nothing about ```gulpjs``` and you care only about the source code, then, you can directly clone it from the branch named ```build``` using this command:
 
-* ```git clone https://www.github.com/Lelouche01/TrueFix --branch build --single-branch TrueFix```
+* ```git clone https://www.github.com/amaitou/TrueFix --branch build --single-branch TrueFix```
     
 otherwise, you must have [Node.js](https://nodejs.org/) pre-installed on your computer. so after installing it, just change the directory to the folder and run the following command to download a few dependencies
     
